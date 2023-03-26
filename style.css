@@ -1,0 +1,110 @@
+
+:root{
+    --font-texto:'nunito sans', sans-serif;
+    --font-tiulo:'open sans', sans-serif;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    border: none;
+    font-family: var(--font-texto);
+    
+}
+
+body{
+    background-image: url('img/img-background.jpg');
+    background-size: cover;
+    color: rgb(38, 35, 35);
+}
+
+.container__login{
+    width: 400px;
+    height: 600px;
+    background-color: #fff;
+    border-radius: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    margin-top: 8%;
+    padding: 30px 20px;
+}
+
+.container__login h1{
+    font-family: var(--font-tiulo);
+    font-weight: 600;
+}
+
+.container__formulario {
+    margin-top: 50px;
+
+     
+}
+
+.container__formulario label,input,a{
+    display: block;
+    width: 100%;
+    text-align: left;
+    padding: 0.5em 0;
+    font-family: var(--font-texto);
+    font-weight: 300;
+    font-size: 18px;
+
+}
+ input:focus{
+    outline: none;
+}
+.container__formulario input{
+    border-bottom: 2px solid #000;
+}
+.container__formulario a{
+    text-align: right;
+    padding: 1em 0;
+    font-family: var(--font-texto);
+    font-size: 16px;
+    color: #000;
+}
+.botao{
+    margin: 1em 0;
+    text-align: center;
+    border: none;
+    border-radius: 20px;
+    text-transform: uppercase;
+    cursor: pointer;
+    color: #fff;
+    background-color: #08558b;
+
+}
+.container__redes{
+    margin-top: 30px;
+    
+}
+
+.fa-facebook-f{
+    background-color: #08558b;
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
+    color: #fff;
+    margin-top: 20px;
+    cursor: pointer;
+}
+
+.fa-linkedin{
+    background-color: #0077B5;
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
+    color: #fff;
+    cursor: pointer;
+}
+.container__contas{
+    margin-top: 30px;
+}
+#registro{
+    text-align: center;
+}
